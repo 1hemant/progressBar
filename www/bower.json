@@ -1,0 +1,20 @@
+{
+  "name": "progressBar",
+  "authors": [
+    "1hemantrathore@gmail.com"
+  ],
+  "description": "progressBar Demo",
+  "main": "index.html",
+  "keywords": [
+    "progressBar"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
