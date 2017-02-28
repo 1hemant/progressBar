@@ -1,67 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
+
 <body>
 
-<div class="container">
-  <h2>Progress Bars</h2>
-  <p>Progress Bar Example:</p>
-  <div class="progress">
-    <div id="bar1" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-      40%
-    </div>
-  </div>
-  <div class="progress">
-    <div id="bar2" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
-      50%
-    </div>
-  </div>
-  <div class="progress">
-    <div id="bar3" class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
-      60%
-    </div>
-  </div>
-  <div class="progress">
-    <div id="bar4" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
-      70%
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-6">
-      <form>
-        <div class="form-group">
-          <label id="sel1">Select ProgressBar (select one):</label>
-          <select class="form-control" id="sel1">
+    <div class="container">
+        <h2>Progress Bars</h2>
+        <p>Progress Bar Example:</p>
+        <div class="progress">
+            <div id="bar1" class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                40%
+            </div>
+        </div>
+        <div class="progress">
+            <div id="bar2" class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                50%
+            </div>
+        </div>
+        <div class="progress">
+            <div id="bar3" class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                60%
+            </div>
+        </div>
+        <div class="progress">
+            <div id="bar4" class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                70%
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <form>
+                    <div class="form-group">
+                        <label id="sel1">Select ProgressBar (select one):</label>
+                        <select class="form-control" id="sel1">
             <option name="bar1">bar1</option>
             <option name="bar2">bar2</option>
             <option name="bar3">bar3</option>
             <option name="bar4">bar4</option>
           </select>
+                    </div>
+                </form>
+            </div>
+            <div class="col-xs-6">
+                <div class="btn-group">
+                    <button type="button" data-operator="+" data-width="20" class="btn btn-default" id="btn1">+20</button>
+                    <button type="button" data-operator="+" data-width="10" class="btn btn-default" id="btn2">+10</button>
+                    <button type="button" data-operator="-" data-width="10" class="btn btn-default" id="btn3">-10</button>
+                    <button type="button" data-operator="-" data-width="20" class="btn btn-default" id="btn4">-20</button>
+                </div>
+            </div>
         </div>
-      </form>
     </div>
-    <div class="col-xs-6">
-      <div class="btn-group">
-        <button type="button" data-operator="+" data-width="20" class="btn btn-default" id="btn1">+20</button>
-        <button type="button" data-operator="+" data-width="10" class="btn btn-default" id="btn2">+10</button>
-        <button type="button" data-operator="-" data-width="10" class="btn btn-default" id="btn3">-10</button>
-        <button type="button" data-operator="-" data-width="20" class="btn btn-default" id="btn4">-20</button>
-      </div>
-    </div>
-  </div>
-</div>
-
     <script src="js/index.js"></script>
-    
-
-
 </body>
-</html>
 
+</html>
